@@ -1,0 +1,2 @@
+Enter file contents here
+Range("B3:B4").AutoFill Destination:=Range("B3:B" & Cells(Rows.Count, "C").End(xlUp).Row)
